@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// this code on github
 int main(int argc, char* argv[]){
 	char *result;
 	if(argc < 2){
@@ -21,3 +22,5 @@ int main(int argc, char* argv[]){
 
 // compile: g++ getenv.cpp -o getenv
 // run:	./getenv
+
+// after git commit try: git push origin master --force
