@@ -4,6 +4,7 @@
 // this code on github
 int main(int argc, char* argv[]){
 	char *result;
+	char c;
 	if(argc < 2){
 		printf("usage: getenv <env name>\nExample: ./getenv PATH\n");
 		return -1;
